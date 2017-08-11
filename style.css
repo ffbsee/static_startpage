@@ -1,6 +1,27 @@
+/* Basic Site settings */
 header img {
     width: 73%;
 }
+@font-face { font-family: 'Lato';
+             src: url('Lato-Regular.ttf') format('truetype'); }
 
+html {
+    font-family: Lato, arial, sans-serif;
+    color: rgba(0,0,0,1);
+}
 
+/* Specific Layout Settings for Desktop Clients */
+article figure {
+    background-color: red;
+    width: 23%;
+    padding: 14px;
+    float: left;
+    margin: 13px;  
+    margin-top: 42px;
+} 
 
+.ff_link {
+    text-decoration: none;
+    color: black;
+    text-shadow: 1px 1px 5px blue;
+}
