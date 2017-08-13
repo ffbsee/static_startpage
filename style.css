@@ -1,13 +1,15 @@
-/* Basic Site settings */
-header img {
-    width: 73%;
-    margin-top: 23px;
-    margin-left: 13.37px;
-}
 @font-face { font-family: 'Lato';
              src: url('Lato-Regular.ttf') format('truetype'); }
 
-html {
+@media screen and (min-width: 1250px) {
+
+  /* Basic Site settings */
+  header img {
+    width: 73%;
+    margin-top: 23px;
+    margin-left: 13.37px;
+  }
+  html {
     font-family: Lato, arial, sans-serif;
     color: rgba(0,0,0,1);
     margin. 0px;
@@ -17,10 +19,10 @@ html {
 	background: no-repeat center center,-o-linear-gradient(top,      rgba(255,255,255,1), rgba(0,158,224,1));
 	background: no-repeat center center,-ms-linear-gradient(top,     rgba(255,255,255,1), rgba(0,158,224,1));
     background: no-repeat center center,linear-gradient(top,         rgba(255,255,255,1), rgba(0,158,224,1));
-}
-body {margin: 0px;}
-/* Specific Layout Settings for Desktop Clients */
-article figure {
+  }
+  body {margin: 0px;}
+  /* Specific Layout Settings for Desktop Clients */
+  article figure {
     background-color: rgba(255,255,255,0.8);
     width: 18.5%;
     padding: 0.9%;
@@ -32,16 +34,16 @@ article figure {
     box-shadow: 2px 2px 4px 4px #009ee0;
     border-radius: 23px;
     min-width: 230px;
-} 
-.navi {
+  } 
+  .navi {
     float: right;
     width: 25%;
     box-shadow: 2px 2px 4px 4px #de2c68;
     padding: 2%;
     margin: 2%;
     background-color: rgba(255,255,255,0.8);
-}
-.ff_link, .ff_link:link, .ff_link:visited {
+  }
+  .ff_link, .ff_link:link, .ff_link:visited {
     text-decoration: none;
     color: white;
     text-shadow: 1px 1px 3px black;
@@ -50,14 +52,13 @@ article figure {
     border-radius: 5px;
     background-color: #009ee0;
     font-size: 1.2em;
-}
-.ff_link:hover, .ff_link:active{
+  }
+  .ff_link:hover, .ff_link:active{
     text-shadow: 0px 0px 2px #009ee0;
     background-color: white;
     color: black;
-}
-
-.stoerung , .stoerung:link, .stoerung:visited{
+  }
+  .stoerung , .stoerung:link, .stoerung:visited{
     text-decoration: none;
     color: white;
     text-shadow: 1px 1px 3px black;
@@ -69,18 +70,17 @@ article figure {
     border-radius: 5px;
     background-color: #de2c68;
     font-size: 2em;
-}
-.stoerung:active, .stoerung:hover{
+  }
+  .stoerung:active, .stoerung:hover{
     color: black;
     background-color:  #ffb400;
     text-shadow: 1px 1px 3px #de2c68;
-}
-article nav a:link, article nav a:visited{
+  }
+  article nav a:link, article nav a:visited{
     text-decoration: none;
     color: #009ee0;
-}
-
-footer, footer a, footer a:link, footer a:visited {
+  }
+  footer, footer a, footer a:link, footer a:visited {
     clear: both;
     text-align: center;
     margin-left: auto;
@@ -91,8 +91,8 @@ footer, footer a, footer a:link, footer a:visited {
     font-size: 1.1em;
     text-decoration: none;
     color: black;
-}
-.parallax_footer{
+  }
+  .parallax_footer{
     background-color: white;
     clear: both;
     text-align: center;
@@ -104,8 +104,8 @@ footer, footer a, footer a:link, footer a:visited {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-main {
+  }
+  main {
     text-align: left;
     float: left;
     width: 61.9%;
@@ -115,8 +115,130 @@ main {
     border-radius: 5px;
     padding: 1.5%;
     background-color: rgba(255,255,255,0.8);
-}
-main a:link, main a:visited{
+  }
+  main a:link, main a:visited{
     text-decoration: none;
     color: #ffb400;
+  }
+}
+
+
+
+@media screen and (max-width: 1250px) {
+
+  /* Basic Site settings */
+  header img {
+    width: 80%;
+    margin-top: 23px;
+    margin-left: 13.37px;
+  }
+  html {
+    font-family: Lato, arial, sans-serif;
+    color: rgba(0,0,0,1);
+    margin. 0px;
+	background: rgba(0,158,224,1);
+	background: no-repeat center center,-moz-linear-gradient(top,    rgba(255,255,255,1), rgba(0,158,224,1));
+	background: no-repeat center center,-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(0,158,224,1));
+	background: no-repeat center center,-o-linear-gradient(top,      rgba(255,255,255,1), rgba(0,158,224,1));
+	background: no-repeat center center,-ms-linear-gradient(top,     rgba(255,255,255,1), rgba(0,158,224,1));
+    background: no-repeat center center,linear-gradient(top,         rgba(255,255,255,1), rgba(0,158,224,1));
+  }
+  body {margin: 0px;}
+  article figure {
+    background-color: rgba(255,255,255,0.8);
+    width: 90%;
+    padding: 2.5%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin: 2.5%;  
+    margin-top: 4%;
+    box-shadow: 2px 2px 4px 4px #009ee0;
+    border-radius: 23px;
+    min-width: 230px;
+    text-align: center;
+  } 
+  .navi {
+    width: 85%;
+    box-shadow: 2px 2px 4px 4px #de2c68;
+    padding: 3.75%;
+    margin: 3.75%;
+    background-color: rgba(255,255,255,0.8);
+  }
+  .ff_link, .ff_link:link, .ff_link:visited {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 2px 2px 4px 2px #009ee0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #009ee0;
+    font-size: 1.2em;
+  }
+  .ff_link:hover, .ff_link:active{
+    text-shadow: 0px 0px 2px #009ee0;
+    background-color: white;
+    color: black;
+  }
+  .stoerung , .stoerung:link, .stoerung:visited{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 2px 2px 4px 2px #de2c68;
+    padding: 12px;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #de2c68;
+    font-size: 2em;
+  }
+  .stoerung:active, .stoerung:hover{
+    color: black;
+    background-color:  #ffb400;
+    text-shadow: 1px 1px 3px #de2c68;
+  }
+  article nav a:link, article nav a:visited{
+    text-decoration: none;
+    color: #009ee0;
+  }
+  footer, footer a, footer a:link, footer a:visited {
+    clear: both;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    padding-top: 650px;
+    text-shadow: 0px 0px 3px white, 0px 0px 7px white, 5px 0px 7px white, -5px 0px 7px white, 10px 0px 7px white, -10px 0px 7px white;
+    font-size: 1.1em;
+    text-decoration: none;
+    color: black;
+  }
+  .parallax_footer{
+    background-color: white;
+    clear: both;
+    text-align: center;
+    width: 100%;
+    margin-bottom: -42px;
+    background-image: url("https://freifunk-bodensee.net/lib/tpl/dokuwiki-template/images/footer.ffbsee.svg");
+    height: 800px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main {
+    text-align: left;
+    float: left;
+    width: 90%;
+    margin: 2.5%;
+    margin-top: 42px;
+    box-shadow: 2px 2px 4px 4px #ffb400;
+    border-radius: 5px;
+    padding: 2.5%;
+    background-color: rgba(255,255,255,0.8);
+  }
+  main a:link, main a:visited{
+    text-decoration: none;
+    color: #ffb400;
+  }
 }
