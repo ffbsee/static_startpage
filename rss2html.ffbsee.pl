@@ -19,7 +19,7 @@ my $seite_code = $seite->decoded_content();
 my $data = $xml->XMLin("$seite_code");
 
 # print output
-#print Dumper($data);
+# print Dumper($data);
 
 my $news_count=0;
 while (defined ($data->{"channel"}->{"item"}->[$news_count])){
@@ -27,7 +27,7 @@ while (defined ($data->{"channel"}->{"item"}->[$news_count])){
 }
 # print $news_count; #wie viele news exestieren...
 
-my $w;
+my $w = "";
 open (DATEI, "index.html") or die $!;
    while(<DATEI>){
      $w = $w.$_;
@@ -40,8 +40,11 @@ open FH, ">", 'newsfeed.html' or die "Error writing 'newsfeed.html': $!\n";
 
 print FH $a[0];
 print FH encode_entities($data->{'channel'}->{'item'}->[$news_count-1]->{'description'}, '^\n\x20-\x25\x27-\x7e');
+print FH "\n<a style='color: #de2c68;' href='$data->{'channel'}->{'item'}->[$news_count-1]->{'link'}'>Link zum Artickel</a><br/>\n<hr/>\n";
 print FH encode_entities($data->{'channel'}->{'item'}->[$news_count-2]->{'description'}, '^\n\x20-\x25\x27-\x7e');
+print FH "\n<a  style='color: #de2c68;' href='$data->{'channel'}->{'item'}->[$news_count-1]->{'link'}'>Link zum Artickel</a><br/>\n<hr/>\n";
 print FH encode_entities($data->{'channel'}->{'item'}->[$news_count-3]->{'description'}, '^\n\x20-\x25\x27-\x7e');
+print FH "\n<a h style='color: #de2c68;' ref='$data->{'channel'}->{'item'}->[$news_count-1]->{'link'}'>Link zum Artickel</a><br/>\n<hr/>\n";
 print FH $a[1];
 
 close FH;

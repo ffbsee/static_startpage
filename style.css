@@ -1,6 +1,8 @@
 /* Basic Site settings */
 header img {
     width: 73%;
+    margin-top: 23px;
+    margin-left: 13.37px;
 }
 @font-face { font-family: 'Lato';
              src: url('Lato-Regular.ttf') format('truetype'); }
@@ -8,18 +10,25 @@ header img {
 html {
     font-family: Lato, arial, sans-serif;
     color: rgba(0,0,0,1);
+    margin. 0px;
+	background: rgba(0,158,224,1);
+	background: no-repeat center center,-moz-linear-gradient(top,    rgba(255,255,255,1), rgba(0,158,224,1));
+	background: no-repeat center center,-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(0,158,224,1));
+	background: no-repeat center center,-o-linear-gradient(top,      rgba(255,255,255,1), rgba(0,158,224,1));
+	background: no-repeat center center,-ms-linear-gradient(top,     rgba(255,255,255,1), rgba(0,158,224,1));
+    background: no-repeat center center,linear-gradient(top,         rgba(255,255,255,1), rgba(0,158,224,1));
 }
-
+body {margin: 0px;}
 /* Specific Layout Settings for Desktop Clients */
 article figure {
-    background-color: none;
+    background-color: rgba(255,255,255,0.8);
     width: 18.5%;
     padding: 0.9%;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     float: left;
     margin: 1%;  
-    margin-top: 42px;
+    margin-top: 2%;
     box-shadow: 2px 2px 4px 4px #009ee0;
     border-radius: 23px;
     min-width: 230px;
@@ -30,6 +39,7 @@ article figure {
     box-shadow: 2px 2px 4px 4px #de2c68;
     padding: 2%;
     margin: 2%;
+    background-color: rgba(255,255,255,0.8);
 }
 .ff_link, .ff_link:link, .ff_link:visited {
     text-decoration: none;
@@ -83,9 +93,10 @@ footer, footer a, footer a:link, footer a:visited {
     color: black;
 }
 .parallax_footer{
+    background-color: white;
     clear: both;
     text-align: center;
-    margin: -0.32%;
+    width: 100%;
     margin-bottom: -42px;
     background-image: url("https://freifunk-bodensee.net/lib/tpl/dokuwiki-template/images/footer.ffbsee.svg");
     height: 800px; 
@@ -94,4 +105,18 @@ footer, footer a, footer a:link, footer a:visited {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+main {
+    text-align: left;
+    float: left;
+    width: 61.9%;
+    margin: 1%;
+    margin-top: 42px;
+    box-shadow: 2px 2px 4px 4px #ffb400;
+    border-radius: 5px;
+    padding: 1.5%;
+    background-color: rgba(255,255,255,0.8);
+}
+main a:link, main a:visited{
+    text-decoration: none;
+    color: #ffb400;
+}
