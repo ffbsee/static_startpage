@@ -50,4 +50,5 @@ print FH $a[1];
 close FH;
 
 
+`cp style.css /var/www/ffbsee.de/web/`
 
