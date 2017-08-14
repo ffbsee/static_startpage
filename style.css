@@ -5,7 +5,9 @@
 
   /* Basic Site settings */
   header img {
-    width: 73%;
+    width: 50%;
+    min-width: 500px;
+    max-width: 1000px;
     margin-top: 23px;
     margin-left: 13.37px;
   }
