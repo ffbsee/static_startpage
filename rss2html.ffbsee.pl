@@ -36,7 +36,7 @@ close (DATEI);
 
 my @a = split('<!--PERL-RSS-FEED-->', $w);
 
-open FH, ">", 'newsfeed.html' or die "Error writing 'newsfeed.html': $!\n";
+open FH, ">", '/var/www/ffbsee.de/web/start.html' or die "Error writing 'start.html': $!\n";
 
 print FH $a[0];
 print FH encode_entities($data->{'channel'}->{'item'}->[$news_count-1]->{'description'}, '^\n\x20-\x25\x27-\x7e');
@@ -50,4 +50,5 @@ print FH $a[1];
 close FH;
 
 
+`cp style.css /var/www/ffbsee.de/web/`
 
