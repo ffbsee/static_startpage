@@ -28,7 +28,7 @@ while (defined ($data->{"channel"}->{"item"}->[$news_count])){
 # print $news_count; #wie viele news exestieren...
 
 my $w = "";
-open (DATEI, "index.html") or die $!;
+open (DATEI, "/var/www/ffbsee.de/home/web20/static_startpage/index.html") or die $!;
    while(<DATEI>){
      $w = $w.$_;
    }
@@ -50,5 +50,5 @@ print FH $a[1];
 close FH;
 
 
-`cp style.css /var/www/ffbsee.de/web/`
+`cp /var/www/ffbsee.de/home/web20/static_startpage/style.css /var/www/ffbsee.de/web/`
 
