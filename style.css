@@ -287,46 +287,5 @@
    nav .ff_link, nav .ff_link:link, nav .ff_link:visited{
     font-size: 0.8em;
   }
-}/*
- footer, footer a, footer a:link, footer a:visited {
-    clear: both;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-    padding-top: 650px;
-    text-shadow: 0px 0px 3px white, 0px 0px 7px white, 5px 0px 7px white, -5px 0px 7px white, 10px 0px 7px white, -10px 0px 7px white;
-    font-size: 1.1em;
-    text-decoration: none;
-    color: black;
-  }
-  .parallax_footer{
-    background-color: white;
-    clear: both;
-    text-align: center;
-    width: 100%;
-    margin-bottom: -42px;
-    background-image: url("https://freifunk-bodensee.net/lib/tpl/dokuwiki-template/images/footer.ffbsee.svg");
-    height: 800px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  main {
-    text-align: left;
-    float: left;
-    width: 90%;
-    margin: 2.5%;
-    margin-top: 42px;
-    box-shadow: 2px 2px 4px 4px #ffb400;
-    border-radius: 5px;
-    padding: 2.5%;
-    background-color: rgba(255,255,255,0.8);
-  }
-  main a:link, main a:visited{
-    text-decoration: none;
-    color: #ffb400;
-  }
-*/
+}
 
