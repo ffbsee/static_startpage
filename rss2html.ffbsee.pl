@@ -42,9 +42,9 @@ print FH $a[0];
 print FH encode_entities($data->{'channel'}->{'item'}->[$news_count-1]->{'description'}, '^\n\x20-\x25\x27-\x7e');
 print FH "\n<a style='color: #de2c68;' href='$data->{'channel'}->{'item'}->[$news_count-1]->{'link'}'>Link zum Artikel</a><br/>\n<hr/>\n";
 print FH encode_entities($data->{'channel'}->{'item'}->[$news_count-2]->{'description'}, '^\n\x20-\x25\x27-\x7e');
-print FH "\n<a  style='color: #de2c68;' href='$data->{'channel'}->{'item'}->[$news_count-2]->{'link'}'>Link zum Artikel</a><br/>\n<hr/>\n";
+print FH "\n<a style='color: #de2c68;' href='$data->{'channel'}->{'item'}->[$news_count-2]->{'link'}'>Link zum Artikel</a><br/>\n<hr/>\n";
 print FH encode_entities($data->{'channel'}->{'item'}->[$news_count-3]->{'description'}, '^\n\x20-\x25\x27-\x7e');
-print FH "\n<a h style='color: #de2c68;' href='$data->{'channel'}->{'item'}->[$news_count-3]->{'link'}'>Link zum Artikel</a><br/>\n<hr/>\n";
+print FH "\n<a style='color: #de2c68;' href='$data->{'channel'}->{'item'}->[$news_count-3]->{'link'}'>Link zum Artikel</a><br/>\n<hr/>\n";
 print FH $a[1];
 
 close FH;
