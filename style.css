@@ -1,6 +1,8 @@
 @font-face { font-family: 'Lato';
              src: url('Lato-Regular.ttf') format('truetype'); }
 
+/* Desktop Ansicht: Für Fenstergrößen über 1250px */
+
 @media screen and (min-width: 1250px) {
 
   /* Basic Site settings */
@@ -37,6 +39,19 @@
     border-radius: 23px;
     min-width: 230px;
   } 
+  article figure:hover {
+    box-shadow: 3px 4px 4px 8px #009ee0;   
+  }
+  article figure img {
+    width: 80%;
+    padding: 10%;
+    height: auto;
+  }
+  article figure:hover img {
+    width: 98%;
+    height: auto;
+    padding: 1%;
+  }
   .navi {
     float: right;
     width: 25%;
@@ -44,6 +59,9 @@
     padding: 2%;
     margin: 2%;
     background-color: rgba(255,255,255,0.8);
+  }
+  .navi:hover {
+    box-shadow: 3px 4px 4px 8px #de2c68;
   }
   .ff_link, .ff_link:link, .ff_link:visited {
     text-decoration: none;
@@ -118,13 +136,16 @@
     padding: 1.5%;
     background-color: rgba(255,255,255,0.8);
   }
+  main:hover{
+    box-shadow: 3px 5px 4px 8px #ffb400; 
+  }
   main a:link, main a:visited{
     text-decoration: none;
     color: #ffb400;
   }
 }
 
-
+/* Mobile Ansicht: Für Fenster unter 1250px */
 
 @media screen and (max-width: 1250px) {
 
@@ -246,6 +267,9 @@
     color: #ffb400;
   }
 }
+
+/* Miniatur-Ansicht: Für kleine Handys unter 400px breite */
+
 @media screen and (max-width: 400px) {
   header img{
     width: 90%;
