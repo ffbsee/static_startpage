@@ -97,9 +97,19 @@
     background-color:  #ffb400;
     text-shadow: 1px 1px 3px #de2c68;
   }
-  article nav a:link, article nav a:visited{
+  article nav a:link, article nav a:visited, article aside a:link, article aside a:visited{
     text-decoration: none;
     color: #009ee0;
+  }
+  article aside img{
+    width: 90%;
+    height: auto;
+    padding: 10% 5%;
+  }
+  article aside:hover img{
+    width: 100%;
+    height: auto;
+    padding: 5% 0%;
   }
   footer, footer a, footer a:link, footer a:visited {
     clear: both;
@@ -237,7 +247,7 @@
     background-color:  #ffb400;
     text-shadow: 1px 1px 3px #de2c68;
   }
-  article nav a:link, article nav a:visited{
+  article nav a:link, article nav a:visited, article aside a:link, article aside a:visited{
     text-decoration: none;
     color: #009ee0;
   }
