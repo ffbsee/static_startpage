@@ -1,7 +1,7 @@
 @font-face { font-family: 'Lato';
              src: url('Lato-Regular.ttf') format('truetype'); }
 
-/* Desktop Ansicht: Für Fenstergrößen über 1250px */
+/* Desktop Ansicht: Für Fenstergrößen über 1250px (Breite) */
 
 @media screen and (min-width: 1250px) and (max-width: 2000px) {
 
@@ -166,7 +166,7 @@
   }
 }
 
-/* Mobile Ansicht: Für Fenster unter 1250px */
+/* Mobile Ansicht: Für Fenstergößen unter 1250px (Breite) */
 
 @media screen and (max-width: 1250px) {
 
@@ -316,7 +316,7 @@
   }
 }
 
-/* Miniatur-Ansicht: Für kleine Handys unter 400px breite */
+/* Miniatur-Ansicht: Für kleine Handys unter 400px Displaybreite */
 
 @media screen and (max-width: 400px) {
   header img{
@@ -364,7 +364,7 @@
   }
 }
 
-/* Large View fuer Leute mit Display mit ordentlicher Aufloesung */
+/* Large View: fuer Leute mit Display mit ordentlicher Aufloesung (bzw. sehr breitem Display)*/
 
 @media screen and (min-width: 2000px) {
 
@@ -377,7 +377,7 @@
   }
   html {
     font-family: Lato, arial, sans-serif;
-    font-size: 1.3em;
+    font-size: 1.0em;
     color: rgba(0,0,0,1);
     margin. 0px;
 	background: rgba(0,158,224,1);
@@ -452,7 +452,7 @@
     margin: 7px;
     border-radius: 5px;
     background-color: #de2c68;
-    font-size: 1.75em;
+    font-size: 1.15em;
   }
   .stoerung:active, .stoerung:hover{
     color: black;
@@ -526,11 +526,10 @@
     padding: 7px;
     margin: 5px;
     margin-top: -6em;
+    margin-right: -320px
   }
   #inhaltsverzeichnis:hover{
     box-shadow: 1px 1px 4px #de2c68;
     text-shadow: 1px 1px 1px #de2c68;
   }
 }
-
-
