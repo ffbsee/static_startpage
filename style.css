@@ -265,7 +265,7 @@
     padding: 1em;
     padding-top: 650px;
     text-shadow: 0px 0px 3px white, 0px 0px 7px white, 5px 0px 7px white, -5px 0px 7px white, 10px 0px 7px white, -10px 0px 7px white;
-    font-size: 1.1em;
+    font-size: 0.8em;
     text-decoration: none;
     color: black;
   }
@@ -345,6 +345,9 @@
    nav .ff_link, nav .ff_link:link, nav .ff_link:visited{
     font-size: 0.8em;
   }
+  footer, footer a, footer a:link, footer a:visited {
+    font-size: 0.4em;
+  }
 }
 
 /* Large View fuer Leute mit Display mit ordentlicher Aufloesung */
@@ -417,7 +420,7 @@
     padding: 5px;
     border-radius: 5px;
     background-color: #009ee0;
-    font-size: 1.5em;
+    font-size: 1.15em;
   }
   .ff_link:hover, .ff_link:active{
     text-shadow: 0px 0px 2px #009ee0;
@@ -435,7 +438,7 @@
     margin: 7px;
     border-radius: 5px;
     background-color: #de2c68;
-    font-size: 2.5em;
+    font-size: 1.75em;
   }
   .stoerung:active, .stoerung:hover{
     color: black;
@@ -463,8 +466,8 @@
     margin-right: auto;
     padding: 1em;
     padding-top: 1150px;
-    text-shadow: 0px 1px 5px white;
-    font-size: 1.6em;
+    text-shadow: 0px 1px 5px white, 0px 1px 15px white, 2px 3px 15px white, 2px 3px 45px white, 2px 3px 55px white, 0px 1px 25px white, 0px 1px 35px white;
+    font-size: 1.5em;
     text-decoration: none;
     color: black;
   }
