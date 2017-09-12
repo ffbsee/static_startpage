@@ -3,13 +3,11 @@
 
 /* Desktop Ansicht: Für Fenstergrößen über 1250px */
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1250px) and (max-width: 2000px) {
 
   /* Basic Site settings */
   header img {
-    width: 50%;
-    min-width: 500px;
-    max-width: 1000px;
+    width: 55%;
     margin-top: 23px;
     margin-left: 13.37px;
   }
@@ -38,7 +36,6 @@
     box-shadow: 2px 2px 4px 4px #009ee0;
     border-radius: 23px;
     min-width: 230px;
-    max-width: 350px;
   } 
   article figure:hover {
     box-shadow: 3px 4px 4px 8px #009ee0;   
@@ -140,7 +137,6 @@
     text-align: left;
     float: left;
     width: 61.9%;
-    max-width: 1212px;
     margin: 1%;
     margin-top: 42px;
     box-shadow: 2px 2px 4px 4px #ffb400;
@@ -350,4 +346,174 @@
     font-size: 0.8em;
   }
 }
+
+/* Large View fuer Leute mit Display mit ordentlicher Aufloesung */
+
+@media screen and (min-width: 2000px) {
+
+  /* Basic Site settings */
+  header img {
+    width: 32%;
+    margin-top: 23px;
+    margin-left: 150px;
+    
+  }
+  html {
+    font-family: Lato, arial, sans-serif;
+    font-size: 1.3em;
+    color: rgba(0,0,0,1);
+    margin. 0px;
+	background: rgba(0,158,224,1);
+	background: no-repeat center center,-moz-linear-gradient(top,    rgba(255,255,255,1), rgba(0,158,224,1));
+	background: no-repeat center center,-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(0,158,224,1));
+	background: no-repeat center center,-o-linear-gradient(top,      rgba(255,255,255,1), rgba(0,158,224,1));
+	background: no-repeat center center,-ms-linear-gradient(top,     rgba(255,255,255,1), rgba(0,158,224,1));
+    background: no-repeat center center,linear-gradient(top,         rgba(255,255,255,1), rgba(0,158,224,1));
+  }
+  body {margin: 0px; margin-left: 320px; margin-right: 320px;}
+  /* Specific Layout Settings for Desktop Clients */
+  article figure {
+    background-color: rgba(255,255,255,0.8);
+    width: 18.5%;
+    padding: 0.9%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    float: left;
+    margin: 1%;  
+    margin-top: 2%;
+    box-shadow: 2px 2px 4px 4px #009ee0;
+    border-radius: 23px;
+    min-width: 230px;
+  } 
+  article figure:hover {
+    box-shadow: 3px 4px 4px 8px #009ee0;   
+  }
+  article figure img {
+    width: 80%;
+    padding: 10%;
+    height: auto;
+  }
+  article figure:hover img {
+    width: 98%;
+    height: auto;
+    padding: 1%;
+  }
+  .navi {
+    float: right;
+    width: 25%;
+    box-shadow: 2px 2px 4px 4px #de2c68;
+    padding: 2%;
+    margin: 2%;
+    background-color: rgba(255,255,255,0.8);
+  }
+  .navi:hover {
+    box-shadow: 3px 4px 4px 8px #de2c68;
+  }
+  .ff_link, .ff_link:link, .ff_link:visited {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 2px 2px 4px 2px #009ee0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #009ee0;
+    font-size: 1.5em;
+  }
+  .ff_link:hover, .ff_link:active{
+    text-shadow: 0px 0px 2px #009ee0;
+    background-color: white;
+    color: black;
+  }
+  .stoerung , .stoerung:link, .stoerung:visited{
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 2px 2px 4px 2px #de2c68;
+    padding: 12px;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin: 7px;
+    border-radius: 5px;
+    background-color: #de2c68;
+    font-size: 2.5em;
+  }
+  .stoerung:active, .stoerung:hover{
+    color: black;
+    background-color:  #ffb400;
+    text-shadow: 1px 1px 3px #de2c68;
+  }
+  article nav a:link, article nav a:visited, article aside a:link, article aside a:visited{
+    text-decoration: none;
+    color: #009ee0;
+  }
+  article aside img{
+    width: 90%;
+    height: auto;
+    padding: 10% 5%;
+  }
+  article aside:hover img{
+    width: 100%;
+    height: auto;
+    padding: 5% 0%;
+  }
+  footer, footer a, footer a:link, footer a:visited {
+    clear: both;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    padding-top: 1150px;
+    text-shadow: 0px 1px 5px white;
+    font-size: 1.6em;
+    text-decoration: none;
+    color: black;
+  }
+  .parallax_footer{
+    background-color: white;
+    clear: both;
+    text-align: center;
+    width: auto;
+    margin-bottom: -42px;
+    margin-left: -320px;
+    margin-right: -320px;
+    background-image: url("https://freifunk-bodensee.net/lib/tpl/dokuwiki-template/images/footer.ffbsee.animated.svg");
+    height: 1800px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  main {
+    text-align: left;
+    float: left;
+    width: 61.9%;
+    margin: 1%;
+    margin-top: 42px;
+    box-shadow: 2px 2px 4px 4px #ffb400;
+    border-radius: 5px;
+    padding: 1.5%;
+    background-color: rgba(255,255,255,0.8);
+  }
+  main:hover{
+    box-shadow: 3px 5px 4px 8px #ffb400; 
+  }
+  main a:link, main a:visited{
+    text-decoration: none;
+    color: #ffb400;
+  }
+  #inhaltsverzeichnis, #inhaltsverzeichnis:link, #inhaltsverzeichnis:visited {
+    text-decoration: none;
+    float: right;
+    color: white;
+    background-color: #ffb400;
+    padding: 7px;
+    margin: 5px;
+    margin-top: -8em;
+  }
+  #inhaltsverzeichnis:hover{
+    box-shadow: 1px 1px 4px #de2c68;
+    text-shadow: 1px 1px 1px #de2c68;
+  }
+}
+
 
