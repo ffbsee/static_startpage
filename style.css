@@ -311,7 +311,7 @@
     text-decoration: none;
     color: #ffb400;
   }
-  #inhaltsverzeichnis{
+  #inhaltsverzeichnis, .mobile_hide{
     display: none;
   }
 }
