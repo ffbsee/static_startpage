@@ -14,8 +14,7 @@ use DateTime::Format::Duration;
 
 our $icsfile = "https://bodensee.space/calendarfeeds/ffbseepublic.ics";
 our $replace = "<!--ICS-Parser-String-->";
-# our $index_html = "/var/www/ffbsee.de/web/start.html";
-our $index_html = "index.html";
+our $index_html = "/var/www/ffbsee.de/web/start.html";
 #
 # Download ICS feed
 #
@@ -58,7 +57,9 @@ foreach my $event (@events) {
         if (defined  $event->description){ $content .= "<a style='font-size: 0.6em;'> ", $event->description, "</a>\n<br/><br/>\n"; } 
     }
 }
-
+if ($counter eq 0){
+    $content = "<a><b>Derzeit keine Termine geplant</b></a><br/><a style='font-size:0.6em;'>Hast du nich Lust auf ein Community-Treffen bei dir in der Gegend? Freifunk Bodensee hat nicht umsonst den Bodensee im Namen. Kennst du eine gute Location bei dir in der Gegend? Dann veranstalte doch mal selber ein Community-Treffen! Sprich uns einfch an!</a>";
+}
 
 #
 # open index.html from git
