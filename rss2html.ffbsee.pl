@@ -78,4 +78,3 @@ close FH;
 # Kopiere die CSS in den Webserver, falls Sie sich hier im Git geupdatet hat
 #
 `cp /var/www/ffbsee.de/home/web20/static_startpage/style.css /var/www/ffbsee.de/web/`
-`/var/www/ffbsee.de/home/web20/static_startpage/ics2html.ffbsee.pl`
