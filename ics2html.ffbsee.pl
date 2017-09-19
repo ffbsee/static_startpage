@@ -46,15 +46,15 @@ foreach my $event (@events) {
     #
     if (int($tage_bis_event) >= 0){
         $counter++;
-        $content .= "<a><b>", $event->property('summary')->[0]->value, "</b>";
+        $content .= "<a><b>". $event->property('summary')->[0]->value. "</b>";
         if (defined  $event->property('location')){
             my $raw_location = $event->property('location');
             my @l = split("'value' => '", Dumper($raw_location));
             my @lo = split("',", $l[1]);
             $content .= $lo[0];
         }
-        $content .= "am ", $event->start, "</a><br/>\n";
-        if (defined  $event->description){ $content .= "<a style='font-size: 0.6em;'> ", $event->description, "</a>\n<br/><br/>\n"; } 
+        $content .= "am ". $event->start. "</a><br/>\n";
+        if (defined  $event->description){ $content .= "<a style='font-size: 0.6em;'> ". $event->description. "</a>\n<br/><br/>\n"; } 
     }
 }
 if ($counter eq 0){
