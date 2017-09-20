@@ -15,11 +15,11 @@
     font-family: Lato, arial, sans-serif;
     color: rgba(0,0,0,1);
     margin. 0px;
-	background: rgba(0,158,224,1);
-	background: no-repeat center center,-moz-linear-gradient(top,    rgba(255,255,255,1), rgba(0,158,224,1));
-	background: no-repeat center center,-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(0,158,224,1));
-	background: no-repeat center center,-o-linear-gradient(top,      rgba(255,255,255,1), rgba(0,158,224,1));
-	background: no-repeat center center,-ms-linear-gradient(top,     rgba(255,255,255,1), rgba(0,158,224,1));
+    background: rgba(0,158,224,1);
+    background: no-repeat center center,-moz-linear-gradient(top,    rgba(255,255,255,1), rgba(0,158,224,1));
+    background: no-repeat center center,-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(0,158,224,1));
+    background: no-repeat center center,-o-linear-gradient(top,      rgba(255,255,255,1), rgba(0,158,224,1));
+    background: no-repeat center center,-ms-linear-gradient(top,     rgba(255,255,255,1), rgba(0,158,224,1));
     background: no-repeat center center,linear-gradient(top,         rgba(255,255,255,1), rgba(0,158,224,1));
   }
   body {margin: 0px;}
@@ -192,11 +192,11 @@
     font-family: Lato, arial, sans-serif;
     color: rgba(0,0,0,1);
     margin. 0px;
-	background: rgba(0,158,224,1);
-	background: no-repeat center center,-moz-linear-gradient(top,    rgba(255,255,255,1), rgba(0,158,224,1));
-	background: no-repeat center center,-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(0,158,224,1));
-	background: no-repeat center center,-o-linear-gradient(top,      rgba(255,255,255,1), rgba(0,158,224,1));
-	background: no-repeat center center,-ms-linear-gradient(top,     rgba(255,255,255,1), rgba(0,158,224,1));
+    background: rgba(0,158,224,1);
+    background: no-repeat center center,-moz-linear-gradient(top,    rgba(255,255,255,1), rgba(0,158,224,1));
+    background: no-repeat center center,-webkit-linear-gradient(top, rgba(255,255,255,1), rgba(0,158,224,1));
+    background: no-repeat center center,-o-linear-gradient(top,      rgba(255,255,255,1), rgba(0,158,224,1));
+    background: no-repeat center center,-ms-linear-gradient(top,     rgba(255,255,255,1), rgba(0,158,224,1));
     background: no-repeat center center,linear-gradient(top,         rgba(255,255,255,1), rgba(0,158,224,1));
   }
   body {margin: 0px;}
