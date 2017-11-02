@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import urllib3
 import fileinput
 from ics import Calendar, Event
@@ -5,7 +6,7 @@ from datetime import datetime, timezone
 
 # URL, where to find the ics file
 URL = 'https://bodensee.space/calendarfeeds/ffbseepublic.ics'
-#file location of HTML file, where calendar data should be inserted
+# file location of HTML file, where calendar data should be inserted
 html_file = "/var/www/ffbsee.de/web/start.html";
 # String in HTML file, which should be replaced by calendar data
 replace_string = "<!--ICS-Parser-String-->";
@@ -66,7 +67,7 @@ for event in calendar.events:
 
         html_str = html_str + '</li>'
 
-        #Leave loop if 3 events where added
+        # Leave loop if 3 events where added
         if i == 3:
             break
 else:
@@ -79,3 +80,4 @@ file = open(html_file, 'r+')
 for line in fileinput.input( html_file ):
     file.write(line.replace(replace_string, html_str))
 file.close()
+
