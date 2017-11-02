@@ -31,7 +31,7 @@ else:
 calendar = Calendar(ics_file)
 
 # Start creation of HTML string, containing the event data
-html_str = '<ul class="events">'
+html_str = '<ul class="events"><a style="margin-left: -35px; float: left">&#x1F4C5;</a>'
 
 i = 0
 for event in calendar.events:
