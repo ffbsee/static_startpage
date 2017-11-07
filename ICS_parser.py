@@ -7,8 +7,7 @@ from datetime import datetime, timezone
 # URL, where to find the ics file
 URL = 'https://bodensee.space/calendarfeeds/ffbseepublic.ics'
 # file location of HTML file, where calendar data should be inserted
-#html_file = "/var/www/ffbsee.de/web/start.html";
-html_file = "/home/falko/Downloads/index.html"
+html_file = "/var/www/ffbsee.de/web/start.html";
 # String in HTML file, which should be replaced by calendar data
 replace_string = "<!--ICS-Parser-String-->";
 
