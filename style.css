@@ -79,6 +79,8 @@
   ul.events {
     list-style-type: none;
     margin: 0;
+    padding-top: 10px;
+    padding-bottom: 13px;
   }
   .eventdate {
     font-size: smaller;
