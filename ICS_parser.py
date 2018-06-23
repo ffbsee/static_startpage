@@ -35,7 +35,9 @@ html_str = '<ul class="events">\n'
 i = 0
 for event in calendar.events:
     # Only recognize the events
-    if event.begin > datetime.now(timezone.utc):
+   if event.begin > datetime.now(timezone.utc):
+        print(event.name)
+        print(event.begin)
         i = i + 1
         # add icon per event entry
         html_str = html_str + '        <a style="margin-left: -35px; float: left">&#x270e;</a>'
