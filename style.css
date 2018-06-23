@@ -3,7 +3,7 @@
 
 /* Desktop Ansicht: Für Fenstergrößen über 1250px (Breite) */
 
-@media screen and (min-width: 1250px) and (max-width: 2000px) {
+@media screen and (min-width: 1300px) and (max-width: 2000px) {
 
   /* Basic Site settings */
   header img {
@@ -197,7 +197,7 @@
 
 /* Mobile Ansicht: Für Fenstergößen unter 1250px (Breite) */
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1300px) {
 
   /* Basic Site settings */
   header img {
