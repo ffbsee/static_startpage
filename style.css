@@ -3,7 +3,7 @@
 
 /* Desktop Ansicht: Für Fenstergrößen über 1250px (Breite) */
 
-@media screen and (min-width: 1300px) and (max-width: 2000px) {
+@media screen and (min-width: 1300px) and (max-width: 2200px) {
 
   /* Basic Site settings */
   header img {
@@ -489,7 +489,7 @@
 
 /* Large View: fuer Leute mit Display mit ordentlicher Aufloesung (bzw. sehr breitem Display)*/
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 2200px) {
 
   /* Basic Site settings */
   header img {
